@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('/static/fonts/SuisseIntl/Regular/SuisseIntl-Regular-WebXL.woff2') format('woff2'),
+    url('/static/fonts/SuisseIntl/Regular/SuisseIntl-Regular-WebXL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('/static/fonts/SuisseIntl/Bold/SuisseIntl-Bold-WebXL.woff2') format('woff2'),
+    url('/static/fonts/SuisseIntl/Bold/SuisseIntl-Bold-WebXL.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

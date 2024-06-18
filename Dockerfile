@@ -1,0 +1,16 @@
+FROM node:10.12.0
+
+ENV NPM_CONFIG_LOGLEVEL warn
+
+ADD package.json /tmp/package.json
+ADD package-lock.json /tmp/package-lock.json
+RUN cd /tmp && npm ci
+RUN mkdir -p /frontend && cp -a /tmp/node_modules /frontend/
+
+WORKDIR /frontend
+ADD . /frontend
+RUN npm run build
+
+EXPOSE 3000
+
+CMD npm run start

@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  frontend-client:
+    build: .
+    image: docker.medzdrav.ru/rgs-frontend-client:${TAG}
+    network_mode: host
+    environment:
+      - NODE_ENV=development

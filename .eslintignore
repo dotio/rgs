@@ -1,0 +1,9 @@
+/node_modules/*
+/server.js
+/routes.js
+/.next/*
+/.storybook/*
+/tests/*
+/static/sw.js
+/next.config.js
+/mocks

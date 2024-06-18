@@ -1,0 +1,10 @@
+/.next
+/node_modules
+/coverage
+.idea
+.vscode
+.env
+jsconfig.json
+npm-debug.log
+TZ_client_site.md
+webpack.config.junk.js

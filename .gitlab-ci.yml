@@ -1,0 +1,7 @@
+variables:
+  APP_NAME: client-rgs-interface
+
+include:
+  - project: 'health-service/ci-templates'
+    ref: master
+    file: '/web.yml'

@@ -1,0 +1,5 @@
+/* istanbul ignore file */
+export const WEBRTC_ACTIVE_OFFER = 'ACTIVE_OFFER'
+export const WEBRTC_STATUS_DISCONNECTED = 'DISCONNECTED'
+export const WEBRTC_STATUS_CONNECTING   = 'CONNECTING'
+export const WEBRTC_STATUS_CONNECTED    = 'CONNECTED'
